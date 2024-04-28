@@ -4,15 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BikeCity</title>
+    <!--CSS Externo-->
     <link rel="stylesheet" href="./css/style.css">
+    <!--SweetAlert2-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!--Icone da página-->
+    <link rel="shortcut icon" href="img/logo.png">
 </head>
 <body>
-    <!--Menu de Navegação-->
-
+    <!--Header-->
+    <header id="menu">
+        <div id="logo_titulo">
+            <img src="./img/logo.png" alt="logo">
+            <h3>BikeCity</h3>
+        </div>
+        <nav id="menu_nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./pages/sobre.html">Sobre</a></li>
+                <li><a href="./pages/contato.html">Contato</a></li>
+                <li><a href="./pages/login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
     <!--Imagem para o SlideShow-->
-
+    <section id="banner">
+        <img id="img_banner">
+    </section>
     <!--Cards para mostrar os produtos-->
-
+    <h2 id="produtos">Produtos</h2>
+    <section id="cards">
+        <div class="card_home">
+            <p>Bicileta</p>
+            <img src="./img/bicilceta1.png">
+            <span>R$1999,99</span>
+            <a>Comprar</a>
+        </div>
+        <div class="card_home">
+            <p>Velocímetro</p>
+            <img src="./img/velocimetro.png">
+            <span>R$34,99</span>
+            <a>Comprar</a>
+        </div>
+        <div class="card_home">
+            <p>Pedal GTS Alumínio</p>
+            <img src="./img/pedal.png">
+            <span>R$56,99</span>
+            <a>Comprar</a>
+        </div>
+    </section>
+    <footer>
+        <h4>@2024 - Todos os direitos reservados a LANE</h4>
+    </footer>
     <!--Javascript Externo para o alerta personalizado-->
     <script src="./javascript/sweetalert.js"></script>
     <!--JavaScript Externo-->
