@@ -88,8 +88,8 @@ li a:hover{
     transition: 1s ease;
 }
 .card_home img{
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
 }
 .card_home a{
