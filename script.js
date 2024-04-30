@@ -39,3 +39,5 @@ slideShow();
 
 /*Criar um quiz usando o prompt(?) sobre biciletas*/
 //Mostra o Resultado na Tela
+//função que valida o preechimento do campo, caso esteja vazio
+
