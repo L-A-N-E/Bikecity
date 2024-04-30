@@ -65,6 +65,7 @@ li a:hover{
 #cards{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 .card_home{
     display: flex;
