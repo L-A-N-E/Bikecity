@@ -41,6 +41,7 @@ li a:hover{
     align-items: center;
     height: 8vh;
     background-color: var(--cor-fundo);
+    width: 100vw;
 }
 #menu  img{
     height: 75px;
@@ -103,37 +104,39 @@ li a:hover{
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.547);
 }
 #title-contato{
-    margin-left: 13%;
+    text-align: center;
+    font-size: 30px;
 }
-.caixa{
-    margin-top: 5%;
-    margin-left: 38%;
-    border: 2px solid black;
-    width: 400px;
-    height: 300px;
-    border-radius: 15%;
-    gap: 15px;
-    padding: 0%;
-}
-#contato-container{
-    gap: 15px;
-    margin-top: 10%;
-    margin-left: 10%;
+#pag-contatos{
+    width: 100vw;
+    height: 90vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 250%;
+    align-items: center;
+    background-color: white;
+}
+#contato-container{
+    padding: 20px;
+    gap: 15px;
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
 }
 input {
     display: flex;
     color: var(--branco);
-    width: 33%;
+    width: 100%;
     background-color: var(--azul-150);
     border: solid 3px var(--branco);
     border-radius: 10px;
     padding: 5px;
     padding-top: 10px;
     padding-bottom: 10px;
+    border: 1px solid black;
 }
 
 input::placeholder{
@@ -142,7 +145,6 @@ input::placeholder{
 }
 
 #btn-enviar {
-    
     padding: 15px;
     border: none;
     background-color: var(--azul-100);
@@ -150,14 +152,18 @@ input::placeholder{
     text-transform: uppercase;
     border-radius: 10px;
     font-weight: 700;
-    width: 31.5%;
+    width: 30%;
     cursor: pointer;
     margin-top: 20px;
     transition: ease 0.5s;
-    margin-left: 5px;
-    background-color: #465059;
+    background-color: #ccc;
 }
-
+.botao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
 #btn-enviar:hover {
     transform: scale(1.06);
     transition: ease 0.5s;
