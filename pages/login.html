@@ -30,19 +30,22 @@
                 <h1 id="title-login">LOGIN</h1>
                 <!-- Usuário -->
                 <div class="campos-login">
-                    <label for="user">Usuário</label>
-                    <input type="text" name="user" placeholder="Usuário:">
+                    <label class="plc" for="user">Usuário</label>
+                    <input id="usuario" type="text" placeholder="Usuário:">
                 </div>
                 <!-- Senha -->
                 <div class="campos-login">
-                    <label for="password">Senha</label>
-                    <input type="password" name="password" placeholder="Senha:">
+                    <label class="plc" for="password">Senha</label>
+                    <input id="senha" type="password" placeholder="Senha:">
                 </div>
-                <button id="btn-login">LOGIN</button>
+                <!-- Botão Login -->
+                <button onclick="efetuarLogin()" id="btn-login">LOGIN</button>
             </div>
     </section>
-    <!--Botão de Login-->
     
+    <!--JavaScript Externo-->
     <script src="../script.js"></script>
+    <!--SweetAlert2-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>

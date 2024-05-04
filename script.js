@@ -5,7 +5,7 @@ if(url_atual.includes("index.html")){
     Swal.fire({
         title: "Seja Bem-Vindo",
         icon: "info"
-      });
+    });
 }
 
 /*Código para mudar o fundo do site com 3 cores diferentes*/
@@ -68,7 +68,35 @@ function enviarFormulario(){
         })
     }
 }
-/*Validação do Login*/
+
+// Validação Login
+function efetuarLogin(){
+    const user = document.getElementById("usuario").value
+    const senha = document.getElementById("senha").value
+
+    //Login Permitido
+    if(user == "123" && senha == "123"){
+        Swal.fire({
+            title: "Login Efetuado com Sucesso",
+            icon: "success",
+            width: 600,
+            padding: "3em",
+            color: "#5282B3",
+            background: "#fff",
+        })
+    }
+
+    else{
+        Swal.fire({
+            title: "Login Negado",
+            icon: "error",
+            width: 600,
+            padding: "3em",
+            color: "#5282B3",
+            background: "#fff",
+        })
+    }
+}
 //Ao logar, precisa chamar a página quiz.html
 
 /*Criar um quiz usando o <input type="radio"> sobre biciletas*/

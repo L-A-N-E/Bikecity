@@ -188,6 +188,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--cor-backgroundr);
 }
 
 #container-login {
@@ -207,23 +208,57 @@ footer{
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: var(--cor-fundo);
+    background-color: var(--font-color);
+    border: solid 1px var(--cor-background);
     height: auto;
 }
 
 #title-login {
-    color: var(--font-color);
+    color: var(--cor-header);
 }
 
 .campos-login {
+    color: var(--cor-header);
     width: 100%;
 }
+
+.plc {
+    color: var(--cor-header);
+}
+
+#usuario {
+    background-color: transparent;
+    color: var(--cor-header);
+    border: solid 1px var(--cor-background);
+}
+
+::placeholder {
+    color: var(--cor-header);
+}
+
+#usuario:focus {
+    color: var(--cor-header);
+}
+
+#senha:focus{
+    color: var(--cor-header);
+}
+
+#senha {
+    color: var(--cor-header);
+    background-color: transparent;
+    border: solid 1px var(--cor-background);
+}
+
+.campos-login > input::placeholder {
+    color: var(--cor-header);
+}
+
 
 #btn-login {
     cursor: pointer;
     padding: 10px 30px;
     border: none;
-    background-color: var(--font-color);
     color: var(--cor-fundo);
     border-radius: 10px;
     transition: ease 0.4s;
@@ -232,7 +267,12 @@ footer{
 #btn-login:hover{
     transition: ease 0.4s;
     background-color: var(--cor-fundo);
-    border: solid 1px var(--font-color);
-    color: var(--font-color);
+    border: solid 1px var(--cor-background);
+    color: var(--cor-header);
     transform: scale(1.05);
 }
+
+
+
+
+
