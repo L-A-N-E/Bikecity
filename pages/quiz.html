@@ -6,8 +6,10 @@
     <title>Quiz</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="/img/logo.png">
+    <!--SweetAlert2-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
-<body>
+<body id="quiz-pag">
     <!--Header-->
     <header id="menu">
         <div id="logo_titulo">
@@ -23,7 +25,61 @@
             </ul>
         </nav>
     </header>
-    <!--Mostrar o resultado na tela do quiz dos prompts(?)-->
+    <section id="quiz">
+        <div id="quiz-Form">
+            <form class="perguntas">
+                <h2>Pergunta 1</h2>
+                <div class="alternativa">
+                    <input type="radio" name="q1" value="a" id="q1a">
+                    <label for="q1a">Resposta Errada</label>
+                </div>
+                <div class="alternativa">
+                    <input type="radio" name="q1" value="b" id="q1b">
+                    <label for="q1b">Resposta Certa</label>
+                </div>
+                <div class="alternativa">
+                    <input type="radio" name="q1" value="c" id="q1c">
+                    <label for="q1c">Resposta Errada</label>
+                </div>
+            </form>
+            
+            <form class="perguntas">
+                <h2>Pergunta 2</h2>
+                <div class="alternativa">
+                    <input type="radio" name="q1" value="a" id="q1-a">
+                    <label for="q1a">Resposta Errada</label>
+                </div>
+                <div class="alternativa">
+                    <input type="radio" name="q1" value="b" id="q1-b">
+                    <label for="q1b">Resposta Errada</label>
+                </div>
+                <div class="alternativa">
+                    <input type="radio" name="q1" value="c" id="q1-c">
+                    <label for="q1c">Resposta Certa</label>
+                </div>
+            </form>
+            
+            <form class="perguntas">
+                <h2>Pergunta 3</h2>
+                <div class="alternativa">
+                    <input type="radio" name="q1" value="a" id="q1-a">
+                    <label for="q1a">Resposta Errada</label>
+                </div>
+                <div class="alternativa">
+                    <input type="radio" name="q1" value="b" id="q1-b">
+                    <label for="q1b">Resposta Errada</label>
+                </div>
+                <div class="alternativa">
+                    <input type="radio" name="q1" value="c" id="q1-c">
+                    <label for="q1c">Resposta Certa</label>
+                </div>
+            </form>
+            <button onclick="concluirQuiz()" id="submit">Enviar</button>
+        </div>
+    </section>
+    <!--JavaScript Externo-->
     <script src="../script.js"></script>
+    <!--SweetAlert2-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>

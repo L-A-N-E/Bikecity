@@ -128,7 +128,7 @@ li a:hover{
     border-radius: 10px;
     background-color: white;
 }
-input {
+#email,#telefone,#interesse, #nome-completo,#usuario,#senha{
     display: flex;
     color: var(--font-color);
     width: 100%;
@@ -141,12 +141,12 @@ input {
     border: 1px solid black;
 }
 
-input::placeholder{
+#email::placeholder, #telefone::placeholder, #interesse::placeholder, #nome-completo::placeholder,#usuario::placeholder,#senha::placeholder{
     font-weight: 300;
     color: var(--font-color);
 }
 
-#btn-enviar {
+#btn-enviar,#submit {
     padding: 15px;
     border: none;
     background-color: var(--cor-header);
@@ -165,7 +165,7 @@ input::placeholder{
     align-items: center;
     
 }
-#btn-enviar:hover {
+#btn-enviar:hover,#submit:hover {
     transform: scale(1.06);
     transition: ease 0.5s;
     background-color: #151E26;
@@ -271,8 +271,42 @@ footer{
     color: var(--cor-header);
     transform: scale(1.05);
 }
-
-
-
-
+#quiz-pag{
+    display: flex;
+    flex-direction: column;
+}
+#quiz{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#quiz-Form{
+    width: 40%;
+    padding: 50px;
+    border: solid #151E26;
+    border-radius: 14px;
+    background-color: var(--cor-background);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.perguntas{
+    max-width: 80%;   
+    min-width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+}
+.alternativa{
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    gap: 10px;
+}   
 
