@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="shortcut icon" href="/img/logo.png">
 </head>
-<body>
+<body id="pag-login">
     <!--Header-->
     <header id="menu">
         <div id="logo_titulo">
@@ -24,7 +24,23 @@
         </nav>
     </header>
     <!--Espaço para fazer o Login-->
-
+    <section id="container-login">
+            <div id="card-login">
+                <!-- Titulo -->
+                <h1 id="title-login">LOGIN</h1>
+                <!-- Usuário -->
+                <div class="campos-login">
+                    <label for="user">Usuário</label>
+                    <input type="text" name="user" placeholder="Usuário:">
+                </div>
+                <!-- Senha -->
+                <div class="campos-login">
+                    <label for="password">Senha</label>
+                    <input type="password" name="password" placeholder="Senha:">
+                </div>
+                <button id="btn-login">LOGIN</button>
+            </div>
+    </section>
     <!--Botão de Login-->
     
     <script src="../script.js"></script>

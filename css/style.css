@@ -15,6 +15,7 @@ body{
     font-weight: 400;
     font-style: normal;
     background-color: #E9EFF2;
+    overflow-x: hidden;
 }
 ul{
     display: flex;
@@ -177,4 +178,61 @@ footer{
     color: white;
     font-size: 18px;
     padding: 20px;
+}
+
+
+
+/*LOGIN*/
+#pag-login {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container-login {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;   
+}
+
+#card-login{
+    border-radius: 20px;
+    gap: 20px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--cor-fundo);
+    height: auto;
+}
+
+#title-login {
+    color: var(--font-color);
+}
+
+.campos-login {
+    width: 100%;
+}
+
+#btn-login {
+    cursor: pointer;
+    padding: 10px 30px;
+    border: none;
+    background-color: var(--font-color);
+    color: var(--cor-fundo);
+    border-radius: 10px;
+    transition: ease 0.4s;
+}
+
+#btn-login:hover{
+    transition: ease 0.4s;
+    background-color: var(--cor-fundo);
+    border: solid 1px var(--font-color);
+    color: var(--font-color);
+    transform: scale(1.05);
 }
