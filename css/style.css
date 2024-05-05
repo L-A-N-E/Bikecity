@@ -1,14 +1,27 @@
+/* Fonte */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+/* Variaveis */
 :root{
     --cor-header: #C5D1D9;
     --font-color: #151E26;
     --cor-background: #E9EFF2;
 }
+
+
+
+/* Reset */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+
+
+/* Pagina Home*/
 body{
     height: 100vh;
     font-family: "Montserrat", sans-serif;
@@ -187,7 +200,7 @@ footer{
 
 
 
-/*LOGIN*/
+/* Pagina Login */
 #pag-login {
     width: 100vw;
     height: 100vh;
@@ -279,7 +292,9 @@ footer{
     transform: scale(1.05);
 }
 
-/*Quiz*/
+
+
+/* Pagina Quiz */
 #quiz-pag{
     display: flex;
     flex-direction: column;
@@ -322,10 +337,11 @@ footer{
     align-items: baseline;
     justify-content: flex-start;
     gap: 15px;
-}   
-/*Sobre*/
-/*Aperfeiçoar o card!*/
-/*Colocar o card na esquerda e a imagem na direita!*/
+} 
+
+
+
+/* Pagina Sobre */
 #sobre-pag{
     width: 100%;
     height: 100vh;
