@@ -21,11 +21,11 @@ if(url_atual.includes("quiz.html")){
         cancelButtonColor: "#C5D1D9",
         confirmButtonText: "Sim",
         cancelButtonText: "Não"
-      }).then((result) => {
+    }).then((result) => {
         if (!result.isConfirmed) {
-          window.location.href = "../index.html"
+        window.location.href = "../index.html"
         }
-      });
+    });
 }
 
 /*Código para mudar o fundo do site com 3 cores diferentes*/
@@ -97,7 +97,7 @@ function efetuarLogin(){
     const senha = document.getElementById("senha").value
 
     //Login Permitido
-    if(user == "123" && senha == "123"){
+    if(user == "admin" && senha == "123"){
         Swal.fire({
             title: "Login Efetuado com Sucesso",
             icon: "success",
@@ -176,9 +176,9 @@ function concluirQuiz() {
                 confirmButtonColor: "#151E26",
             }).then((result) => {
                 if (result.isConfirmed) {
-                  window.location.href = "../index.html"
+                window.location.href = "../index.html"
                 }
-              });
+            });
         }else if(score == 0){
             Swal.fire({
                 title:"Que pena :C",
@@ -192,9 +192,9 @@ function concluirQuiz() {
                 cancelButtonColor: "#C5D1D9",
             }).then((result) => {
                 if (!result.isConfirmed) {
-                  window.location.href = "../index.html"
+                window.location.href = "../index.html"
                 }
-              });
+            });
         }else{
             Swal.fire({
                 title:"Resultado",
@@ -209,9 +209,9 @@ function concluirQuiz() {
                 cancelButtonColor: "#C5D1D9",
             }).then((result) => {
                 if (!result.isConfirmed) {
-                  window.location.href = "../index.html"
+                window.location.href = "../index.html"
                 }
-              });
+            });
         }
         
     }
