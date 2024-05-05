@@ -159,6 +159,9 @@ li a:hover{
     margin-top: 20px;
     transition: ease 0.5s;
 }
+#submit{
+    margin: 10px 35%;
+}
 .botao{
     display: flex;
     flex-direction: column;
@@ -293,7 +296,7 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
     margin-top: 5vh;
     margin-bottom: auto;
     gap: 20px;
@@ -317,24 +320,33 @@ footer{
 /*Sobre*/
 /*Aperfeiçoar o card!*/
 /*Colocar o card na esquerda e a imagem na direita!*/
+#sobre-pag{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    width: 100%;
+    height: 70vh;
+}
 .card_sobre{
     width: 50%;
     height: 100%;
-    border-radius: 30px;
+    border-radius: 40px;
     background:var(--cor-header);
-    box-shadow: 10px 10px 25px #000000,-10px -10px 25px #0f0f0f;
-    padding: 25px;
-    margin: 40px;
+    box-shadow: 10px 10px 25px #00000029,-10px -10px 25px #0f0f0f79;
+    padding: 50px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: space-evenly;
     flex-direction: column;
 }
 #sobre_titulo{
-    font-size:80px;
+    font-size:50px;
 }
 #sobre_texto{
-    font-size: 33px;
-    margin-top: 10px;
+    font-size: 24px;
+    text-align: justify;
+    margin: 40px;
 }
 
 
