@@ -127,7 +127,7 @@ function efetuarLogin(){
 /*Criar um quiz usando o <input type="radio"> sobre biciletas*/
 function concluirQuiz() {
     let perguntas = document.querySelectorAll('.perguntas'); // Seleciona todas as perguntas da classe "perguntas"
-    let respostasCorretas = ['b', 'c', 'c']; // Respostas corretas para cada pergunta
+    let respostasCorretas = ['b', 'c', 'c', 'a', 'b', 'a', 'c', 'a', 'b', 'a']; // Respostas corretas para cada pergunta
     let respostasUsuario = []; // Lista para armazenar as respostas dos usuários
     let score = 0; // Marcará as respostas corretas que o usuário dará
     let respostaFaltando = false; // Variável para verificar se alguma resposta está faltando

@@ -271,6 +271,8 @@ footer{
     color: var(--cor-header);
     transform: scale(1.05);
 }
+
+/*Quiz*/
 #quiz-pag{
     display: flex;
     flex-direction: column;
@@ -312,4 +314,27 @@ footer{
     justify-content: flex-start;
     gap: 15px;
 }   
+/*Sobre*/
+/*Aperfeiçoar o card!*/
+/*Colocar o card na esquerda e a imagem na direita!*/
+.card_sobre{
+    width: 50%;
+    height: 100%;
+    border-radius: 30px;
+    background:var(--cor-header);
+    box-shadow: 10px 10px 25px #000000,-10px -10px 25px #0f0f0f;
+    padding: 25px;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#sobre_titulo{
+    font-size:80px;
+}
+#sobre_texto{
+    font-size: 33px;
+    margin-top: 10px;
+}
+
 
