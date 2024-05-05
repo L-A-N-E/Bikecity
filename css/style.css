@@ -84,6 +84,7 @@ li a:hover{
     flex-wrap: wrap;
 }
 .card_home{
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     justify-content: center;
